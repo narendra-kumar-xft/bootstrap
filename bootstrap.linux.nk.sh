@@ -1,5 +1,5 @@
 #!/bin/bash -ex
-. $HOME/.profile
+. $HOME/.bash_profile
 sudo touch /tmp/install.log
 sudo chmod 666 /tmp/install.log
 sudo yum update -y
