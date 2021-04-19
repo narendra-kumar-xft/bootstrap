@@ -1,7 +1,4 @@
 #!/bin/bash -ex
-. $HOME/.profile
-sudo touch /tmp/install.log
-sudo chmod 666 /tmp/install.log
 sudo apt update -y
 sudo apt install mysql-client -y
 sudo apt install python3 -y
@@ -12,6 +9,3 @@ sudo apt install python3-boto3 -y
 sudo apt install git -y
 sudo apt update -y
 sudo mkdir -p /opt/aws-demo
-cd /opt/aws-demo
-sudo touch install.log
-sudo chmod 666 install.log
